@@ -1,4 +1,4 @@
-package code.com.olo.easydip.samples.implementations;
+package java.com.olo.mocks.implementations;
 
 public abstract class SimpleAbstract {
     public String SimpleAbstractMethod(){

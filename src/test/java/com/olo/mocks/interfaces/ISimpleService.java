@@ -1,5 +1,6 @@
-package code.com.olo.easydip.samples.interfaces;
+package java.com.olo.mocks.interfaces;
 
 public interface ISimpleService {
     String SimpleMethod();
 }
+
