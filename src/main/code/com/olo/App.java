@@ -1,7 +1,7 @@
 package code.com.olo;
 
 import code.com.olo.easydip.model.Injection;
-import code.com.olo.easydip.reflections.InjectionsDetector;
+import code.com.olo.easydip.core.InjectionsDetector;
 import java.util.ArrayList;
 
 /**

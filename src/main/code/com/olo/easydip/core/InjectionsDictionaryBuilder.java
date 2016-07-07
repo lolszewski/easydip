@@ -1,11 +1,9 @@
 package code.com.olo.easydip.core;
 
 import code.com.olo.easydip.model.Injection;
-import code.com.olo.easydip.reflections.InjectionsInstancesBuilder;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 public class InjectionsDictionaryBuilder {
     public static InjectionsDictionaryBuilder instance = new InjectionsDictionaryBuilder();
@@ -15,8 +13,8 @@ public class InjectionsDictionaryBuilder {
         for (Injection injection: injections){
             String key = getInjectionKey(injection);
 
-            Class<?> c =  Class.forName(((Class<?>)injection.implementation).getName());
-            Object instance = InjectionsInstancesBuilder.instance.getInstance(c);
+            Class<?> classDefinition =  Class.forName(((Class<?>)injection.implementation).getName());
+            Object instance = InjectionsInstancesBuilder.instance.getInstance(classDefinition);
 
             map.put(key, instance);
         }
@@ -24,7 +22,7 @@ public class InjectionsDictionaryBuilder {
         return map;
     }
 
-    private String getInjectionKey(Injection injection){
+    public String getInjectionKey(Injection injection){
         String key = new String();
 
         key = injection.implementationName;

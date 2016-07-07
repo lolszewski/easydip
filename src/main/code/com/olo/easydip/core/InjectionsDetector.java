@@ -1,4 +1,4 @@
-package code.com.olo.easydip.reflections;
+package code.com.olo.easydip.core;
 
 import code.com.olo.easydip.annotations.Implementation;
 import code.com.olo.easydip.model.Injection;
@@ -30,7 +30,7 @@ public class InjectionsDetector {
                     for (Class<?> abstraction: abstractions){
                         addRecursively(implementation, abstraction, implementationName, injections);
                     }
-
+                    
                     Class<?> superClass = implementation.getSuperclass();
                     if (superClass != null){
                         addRecursively(implementation, superClass, implementationName, injections);
