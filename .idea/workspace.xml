@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20f22d6-e3df-447e-84f9-ee5b728d4e0f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/olo/InjectionsDetectorTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.olo.AppTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/com.olo.AppTest.txt" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/code/com/olo/easydip/samples/implementations/AbstractComplexed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/code/com/olo/easydip/samples/implementations/SimpleAbstract.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/code/com/olo/easydip/samples/implementations/SimpleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/code/com/olo/easydip/samples/interfaces/ISimpleService.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easydip.iml" afterPath="$PROJECT_DIR$/easydip.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
@@ -38,8 +45,8 @@
       <file leaf-file-name="InjectionsDetectorTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/olo/InjectionsDetectorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="110">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
@@ -1262,8 +1269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/olo/InjectionsDetectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="110">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
