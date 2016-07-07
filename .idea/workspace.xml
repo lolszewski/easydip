@@ -11,6 +11,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/code/com/olo/easydip/core/InjectionsManager.java" afterPath="$PROJECT_DIR$/src/main/code/com/olo/easydip/core/InjectionsManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/olo/InjectionsManagerTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/olo/InjectionsManagerTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/olo/mocks/implementations/SimpleServiceWithDependency.java" afterPath="$PROJECT_DIR$/src/test/java/com/olo/mocks/implementations/SimpleServiceWithDependency.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.olo.AppTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.olo.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.olo.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.olo.AppTest.txt" />
     </list>
     <ignored path="easydip.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="InjectionsManagerTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/olo/InjectionsManagerTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="85" column="61" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -914,7 +916,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41290322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41290322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1382,8 +1384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/olo/InjectionsManagerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

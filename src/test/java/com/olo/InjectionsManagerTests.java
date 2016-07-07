@@ -116,7 +116,7 @@ public class InjectionsManagerTests extends TestCase {
 
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        
+
         assertSame(false, elapsedTime > 10000);
     }
 }
