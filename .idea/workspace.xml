@@ -8,6 +8,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/olo/InjectionsInstancesBuilderTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/olo/InjectionsDetectorTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/olo/InjectionsDetectorTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.olo.AppTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.olo.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.olo.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.olo.AppTest.txt" />
     </list>
     <ignored path="easydip.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +64,8 @@
       <file leaf-file-name="InjectionsInstancesBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/code/com/olo/easydip/reflections/InjectionsInstancesBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="66">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -1368,8 +1370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/code/com/olo/easydip/reflections/InjectionsInstancesBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="66">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
