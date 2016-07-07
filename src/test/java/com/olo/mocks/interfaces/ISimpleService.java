@@ -1,4 +1,4 @@
-package java.com.olo.mocks.interfaces;
+package com.olo.mocks.interfaces;
 
 public interface ISimpleService {
     String SimpleMethod();

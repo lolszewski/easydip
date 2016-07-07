@@ -1,4 +1,4 @@
-package java.com.olo.mocks.implementations;
+package com.olo.mocks.implementations;
 
 public abstract class SimpleAbstract {
     public String SimpleAbstractMethod(){
