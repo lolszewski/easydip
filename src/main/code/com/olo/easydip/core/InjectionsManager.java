@@ -1,7 +1,11 @@
 package code.com.olo.easydip.core;
 
+import code.com.olo.easydip.annotations.AutoInject;
+import code.com.olo.easydip.annotations.SkipAutoInject;
 import code.com.olo.easydip.model.Injection;
 
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.NoSuchElementException;
@@ -14,6 +18,7 @@ public class InjectionsManager {
     public void initialize() throws IllegalAccessException, ClassNotFoundException, InstantiationException {
         ArrayList<Injection> injectionsList = InjectionsDetector.instance.detectInjections();
         injectionsMap = InjectionsDictionaryBuilder.instance.buildInjectionsMap(injectionsList);
+
     }
 
     public <T> T get(Class<T> abstractionClass) {
@@ -21,17 +26,13 @@ public class InjectionsManager {
     }
 
     public <T> T get(Class<T> abstractionClass, String namedImplementation) {
-        String className = abstractionClass.toString();
+        String implementationKey = InjectionsDictionaryBuilder.instance.getKeyOrNull(abstractionClass, namedImplementation, injectionsMap);
 
-        String keyBeginning = namedImplementation;
-        keyBeginning += className;
-
-        for (String key: injectionsMap.keySet()){
-            if (key.startsWith(keyBeginning)){
-                return (T)injectionsMap.get(key);
-            }
+        if (implementationKey != null){
+            return (T)injectionsMap.get(implementationKey);
         }
 
+        String className = abstractionClass.toString();
         throw new NoSuchElementException("There was no implementations found for " + className + ". Are you sure you not missing @implementation annotation?");
     }
 }

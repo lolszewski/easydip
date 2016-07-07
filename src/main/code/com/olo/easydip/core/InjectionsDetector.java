@@ -26,6 +26,8 @@ public class InjectionsDetector {
                 for (Class<?> implementation: implementations){
                     String implementationName = implementation.getAnnotation(Implementation.class).implementationName();
 
+                    addRecursively(implementation, implementation, implementationName, injections);
+
                     Class<?>[] abstractions = implementation.getInterfaces();
                     for (Class<?> abstraction: abstractions){
                         addRecursively(implementation, abstraction, implementationName, injections);
