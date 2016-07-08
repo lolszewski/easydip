@@ -4,7 +4,7 @@ It has been implemented with decorator pattern approach.
 Example of usage has been pushed in other repository:
 https://github.com/lolszewski/easydip-usage
 
-There are few annotations that are EasyDip uses:
+There are few annotations that EasyDip uses:
 
 ```java
 @Target(ElementType.TYPE)
@@ -130,7 +130,7 @@ public class ElasticClientsDataAccess implements IClientDataAccess {
 }
 ```
 
-As you can see all of those implementation have @Implementation(implementationName = "...") set.
+As you can see all of those implementations have @Implementation(implementationName = "...") set.
 You have also be aware of our FakeClientsService fakeClientsService, because it's never initialized explicitly in those implementations, but somehow this object is not null - all is available thanks to EasyDip and its @AutoInject annotation :);
 This is really important and in EasyDip nomenclature it is something called "named implementation".
 With this approach we can do something like this:
