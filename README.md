@@ -1,3 +1,5 @@
+This is one of the projects that was created in education purposes (I'm currently .net developer and trying to migrate into java :)).
+
 EasyDip is simple way for supporting DIP (Dependency inversion principle, Dependency injection).
 It has been implemented with decorator pattern approach.
 
