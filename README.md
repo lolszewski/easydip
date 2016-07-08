@@ -67,7 +67,7 @@ Let's have FakeClientsService, which is the source of our fake data.
 ```java
 @Implementation
 public class FakeClientsService {
-    public ArrayList<Client> GetFakeClients(){
+    public ArrayList<Client> getFakeClients(){
         ArrayList<Client> clients = new ArrayList<Client>();
 
         clients.add(new Client("Mark", 18));
@@ -102,7 +102,7 @@ public class MsSqlClientDataAccess implements IClientDataAccess {
     FakeClientsService fakeClientsService;
 
     public List<Client> getClients() {
-        return fakeClientsService.GetFakeClients();
+        return fakeClientsService.getFakeClients();
     }
 }
 ```
@@ -115,7 +115,7 @@ public class OracleClientDataAccess implements IClientDataAccess {
 
     public List<Client> getClients() {
 
-        return fakeClientsService.GetFakeClients().subList(0, 2);
+        return fakeClientsService.getFakeClients().subList(0, 2);
     }
 }
 ```
@@ -127,7 +127,7 @@ public class ElasticClientsDataAccess implements IClientDataAccess {
     FakeClientsService fakeClientsService;
 
     public List<Client> getClients() {
-        return fakeClientsService.GetFakeClients().subList(0, 6);
+        return fakeClientsService.getFakeClients().subList(0, 6);
     }
 }
 ```
