@@ -59,7 +59,7 @@ IClientDataAccess clientDataAccess = InjectionsManager.instance.get(IClientDataA
 ```
 
 In above implementation EasyDip will automatically match proper implementation for IClientDataAccess interface, which is SomeClientDataAccess during rutime.
-Having this we can go further and try to complicate EsyDip usage a little:
+Having this we can go further and try to complicate EasyDip usage a little:
 
 Let's have IClientDataAccess interface. 
 Let's have FakeClientsService, which is the source of our fake data.
@@ -92,7 +92,7 @@ public interface IClientDataAccess {
 }
 ```
 
-and 3 its implementations:
+and its 3 implementations:
 
 ```java
 @Implementation(implementationName = "mssql")
